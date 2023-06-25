@@ -1,0 +1,57 @@
+body {
+    background-color: grey;
+    color: white;
+    font-size: 30px;
+    background-image: url("https://marketplace.canva.com/EAFTQEWI-Ko/1/0/1600w/canva-black-sky-galaxy-stars-desktop-wallpaper-iWMZ0xN6KXs.jpg");
+}
+
+h1 {
+    text-align: center;
+    margin: 100px;
+}
+
+button, label {
+    margin: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 25px;
+    font-size: 30px;
+    color: white;
+}
+
+#reset:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#colorPalette {
+    display: inline;
+}
+
+#container {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+}
+
+#grid {
+    display: grid;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.gridBox {
+    user-select: none;
+}
